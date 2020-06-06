@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections > Books</title>
+    
+    <!--Font Awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- Icon -->
+    <link rel="icon" href="images/logo-laura.jpg">
+</head>
+<body onload="myFunction()">
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="container-fluid p-0">
+      <!-- header -->
+      <div id="header">
+        <img class="logo" src="images/logo-laura.jpg"/>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Miss Laura May</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang-saya.html">About Me<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Collections
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="books.html">Books</a>
+                  <a class="dropdown-item" href="photo-album.html">Photo Album</a>
+                  <!-- <div class="dropdown-divider"></div> -->
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- sub menu -->
+        <nav aria-label="breadcrumb" id="sub-menu">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Collections > Books</li>
+          </ol>
+        </nav>
+      </div>
+      <section id="books">
+        <div class="main pt-4">
+          <div class="row" id="book-desc">
+            <div class="col-4 left-books" style="padding-left: 60px">
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Outliers</h1>
+                </header>
+                <img class="card-img" src="images/books-1.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Gladwell mengatakan bahwa buku <strong>Outliers</strong>
+                    bukanlah tentang pohon yang berhasil tumbuh paling tinggi di hutan,
+                    namun buku ini adalah buku tentang hutan itu sendiri.
+                    Hutan yang mampu menjadikan sebuah pohon menjadi yang paling tinggi.
+                    Artinya, kesuksesan tidak hanya ditentukan oleh sikap si individu,
+                    tapi banyak juga faktor lain di luar individu tersebut 
+                    yang akan mengantarkannya kepada kesuksesan.
+                  </p>
+                  <a href="https://www.gramedia.com/products/outliers-rahasia-di-balik-kesukses-cover-baru" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">More of You</h1>
+                </header>
+                <img class="card-img" src="images/books-3.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><strong>More of You</strong> bukanlah tentang apa yang lebih dilihat 
+                    dari pasangan tetapi berfokus pada bagaimana belajar untuk mencari 
+                    tahu apa yang Tuhan inginkan dari hidup kita salah satunya dalam menjalani sebuah hubungan.
+                    Acha sinaga menyadari bahwa dari hubungan yang dijalani Tuhan ingin 
+                    dia lebih tidak  mementingkan diri, tapi harus memikirkan orang-orang di sekitar.
+                  </p>
+                  <a href="https://www.tokopedia.com/beruangbuku/more-of-you-acha-sinaga-andy-ambarita" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">The Sacred Search</h1>
+                </header>
+                <img class="card-img" src="images/books-4.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">In <strong>The Sacred Search</strong>, Gary Thomas challenges readers 
+                    to think beyond finding a “soul mate” and to look for a “sole mate”—someone 
+                    who will walk with them on their spiritual journey.</br>
+                    Turning conventional dating wisdom upside-down, 
+                    Thomas asks: What if there’s no such thing as 
+                    “the one”—there’s something even better in God’s plan? 
+                    What if being “in love” isn’t a good enough reason to get married? 
+                    What if God designed marriage to make us holy rather than happy?
+                  </p>
+                  <a href="http://www.literaturperkantas.com/index.php?route=product/product&product_id=76" class="link-store">
+                      Click to shop the book</a>
+                  </div>
+                </div>    
+              </div>
+            <div class="col-4 middle-books">
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">TRUTH</h1>
+                </header>
+                <img class="card-img" src="images/books-7.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text"><strong>TRUTH</strong> adalah judul buku yang diambil dari
+                    kalimat Temukan Rasa Utuhmu, Temukan Hidup. </br>
+                    Buku ini berisi tentang pengalaman sang penulis yaitu Sophie Navita 
+                    dalam hubungannya dengan sang pencipta yang mana dia menemukan Rasa Utuh-nya
+                    di dalam kepekaan dan ketaatannya pada Tuhan.</br>
+                    I know the author of my Life and I Trust the author of my Life. 
+                    Life is senseless when I don't know The Author of My Life.
+                  </p>
+                  <a href="https://www.bukku.id/product-detail/BKU-593" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Aditya Lee</h1>
+                </header>
+                <img class="card-img" src="images/books-9.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Sebuah novel tentang cinta yang judulnya sama 
+                    dengan nama sang penulis dideskripsikan dengan bahasa yang sederhana 
+                    & ringan walau penggambaran tokoh diceritakan dengan detail. 
+                    Buku ini ditulis oleh seorang anak muda yang bernama Aditya Surya Pratama 
+                    yang juga berprofesi sebagai seorang dokter.</br>
+                    Cinta seperti hujan yang sering menyapa bumi dengan kasihnya, namun
+                    ia kadang berlebih memberi hingga membuat bumi tak merasa nyaman jika ia tiba,
+                    namun tetap saja bumi membutuhkan hujan hingga kapan pun. Itulah cinta,
+                    pasang surutnya tetap ada dengan sekian hikmahnya.
+                  </p>
+                  <a href="https://jendelabook.com/produk-detail.php?id=25445" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Sejenak Bahagia</h1>
+                </header>
+                <img class="card-img" src="images/books-6.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Bahagia & kesedihan ibarat dua sisi 
+                    dari logam mata uang yang berada dalam dimensi yang sama. 
+                    Begitu juga dalam hidup ini. Kita akan selalu menemukan 
+                    keduanya berdampingan, beriringan, & hadir silih berganti. 
+                    Hal yang demikian ini harusnya membuat kita sadar &
+                    lebih mawas diri bahwa di setiap kesedihan yang kita alami 
+                    pasti akan terungkap sejumput kebahagiaan.
+                    Kebahagiaan sejenak. Kebahagiaan yang tak terjangkau 
+                    oleh kata-kata & impuls yang ditangkap oleh indera kita. 
+                    Namun, jangan terlena dengan kebahagiaan yang ada, 
+                    karena kita harus siap menghadapi kesedihan & 
+                    masalah yang muncul pada suatu ketika dalam hidup kita.
+                  </p>
+                  <a href="https://www.sejutabuku.com/buku/detail/sejenak-bahagia-97663378868142348-97677848512299276" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div> 
+            </div>
+            <div class="col-4 right-books">
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Episode Para Lajang</h1>
+                </header>
+                <img class="card-img" src="images/books-5.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Buku ini merupakan kumpulan cerpen dengan mengambil benang merah yang sama, 
+                    apalagi kalau bukan LAJANG. Ada banyak kenapa orang memilih lajang. 
+                    Orang yang hidup melajang bukan berarti tidak bahagia dibandingkan yang punya pasangan.</br>
+                    Single is realizing that being married is not necessarily better, it is merely different. (page. 107)
+                  </p>
+                  <a href="https://www.amazon.com/Episode-Para-Lajang-Indonesian-Shandy/dp/602030762X" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Sebuah Seni Untuk Bersikap Bodo Amat</h1>
+                </header>
+                <img class="card-img" src="images/books-2.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">Dalam buku bersampul orange ini,
+                    Mark akan membantu kita untuk lebih cuek pada
+                    hal-hal yang kurang penting melalui tiga seni.</br>
+                    Kunci dari seni pertama adalah masa bodoh terhadap
+                    segala halangan dan perjuangan dalam mencapai sesuatu yang kita inginkan.
+                    Seni kedua, temukan hal-hal penting dan berarti untuk diprioritaskan
+                    sehingga kamu bisa lebih mudah untuk masa bodoh pada hal-hal sepele.
+                    seni ketiga mempertegas seni sebelumnya,
+                    yakni kita mulai dapat memilah mana yang lebih penting saat beranjak dewasa. 
+                  </p>
+                  <a href="https://www.gramedia.com/products/sebuah-seni-untuk-bersikap-bodo-amat" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>
+              <div class="card mb-6">
+                <header class="card-header">
+                  <h1 class="card-title">Remedies for The Broken</h1>
+                </header>
+                <img class="card-img" src="images/books-8.jpg" alt="">
+                <div class="card-body">
+                  <p class="card-text">A book about a long worth journey of healing,
+                    about being fractured, get diagnosed, deal with prescription pills,
+                    and discovered a life antidote. <br>
+                    -A Healing Journey: To myself, I am proud you have come this far-
+                  </p>
+                  <a href="https://www.togamas.com/detail-buku-11774=Remedies_for_The_Broken__A_Healing_Journey__" class="link-store">
+                    Click to shop the book</a>
+                </div>
+              </div>  
+            </div> 
+          </div>   
+        </div>
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="row" id="footer">
+          <div class="col-12">
+            <img class="footer-logo" src="images/logo-laura.jpg"/>
+            <em class="copy">&copy; 2020 Miss Laura May. All Rights Reserved.</em>
+            <div class="social">
+              <a href="https://www.instagram.com/hermosacaptura/" class="instagram">
+                <i class="fa fa-instagram"></i>Instagram</a>
+              <a href="https://www.twitter.com/laurassi_/" class="twitter">
+                <i class="fa fa-twitter"></i>Twitter</a>
+              <a href="https://www.facebook.com/Lauratamphoe/" class="facebook">
+                <i class="fa fa-facebook"></i>facebook</a>
+              <a href="https://www.linkedin.com/in/lauratampubolon/" class="linkedin">
+                <i class="fa fa-linkedin"></i>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 1600);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+</script>
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--Bootstrap JS-->
+</html>

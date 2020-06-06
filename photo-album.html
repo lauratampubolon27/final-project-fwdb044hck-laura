@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Collections > Photo Album</title>
+    <!--Font Awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- Icon -->
+    <link rel="icon" href="images/logo-laura.jpg">
+</head>
+<body onload="myFunction()">
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+    <div class="container-fluid p-0">
+      <!-- header -->
+      <div id="header">
+        <img class="logo" src="images/logo-laura.jpg"/>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="index.html">Miss Laura May</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tentang-saya.html">About Me<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Collections
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="books.html">Books</a>
+                  <a class="dropdown-item" href="photo-album.html">Photo Album</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- sub menu -->
+        <nav aria-label="breadcrumb" id="sub-menu">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Collections > Photo Album</li>
+          </ol>
+        </nav>
+      </div>
+      <section id="photos">
+        <div class="row">
+          <div class="col-4 left-part">
+            <div class="card mb-4">
+              <img class="card-img" src="images/DSC01262.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">March 8th, 2018</h5>
+                <p class="card-text">”You can learn many things from children. 
+                  How much patience you have, for instance.”<br>
+                  –Franklin P. Jones
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/DSC02127.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">March 8th, 2018</h5>
+                <p class="card-text">”The reality is, my prayers don't change God.
+                  But, I am convinced prayer changes me. 
+                  Praying boldly boots me out of that stale place of religious habit 
+                  into authentic connection with God Himself.”<br>–Lysa TerKeurst
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/coffee.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">August 30th, 2018</h5>
+                <p class="card-text">”I wake up some mornings & sit and have my coffee
+                  and look out at my beautiful garden,
+                  and I go, 'Remember how good this is. Because you can lose it.'”<br>
+                  –Jim Carrey
+                </p>
+              </div>
+            </div>    
+          </div>
+          <div class="col-4 middle-part">
+            <div class="card mb-4">
+              <img class="card-img" src="images/Bali3.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">February 23rd, 2019</h5>
+                <p class="card-text">“Be uniquely you. Stand out. Shine. Be colorful. 
+                  The world needs your prismatic soul!” <br>–Amy Leigh Mercree
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/hey.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">November 12th, 2018</h5>
+                <p class="card-text">“He has made everything beautiful in its time. 
+                  He has also set eternity in the human heart; 
+                  yet no one can fathom what God has done from beginning to end.“
+                  <br>–Ecclesiastes 3:11 (NIV)
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/IMG-20181225-WA0005.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">December 24th, 2018</h5>
+                <p class="card-text">“Friendship is the hardest thing in the world to explain. 
+                  It’s not something you learn in school.
+                   But if you haven’t learned the meaning of friendship, 
+                   you really haven’t learned anything.” –Muhammad Ali
+                </p>
+              </div>
+            </div>  
+          </div> 
+          <div class="col-4 right-part">
+            <div class="card mb-4">
+              <img class="card-img" src="images/_MG_6008.JPG" alt="">
+              <div class="card-body">
+                <h5 class="card-title">November 5th, 2019</h5>
+                <p class="card-text">“A mother’s arms are more comforting than anyone else’s.”<br> –Princess Diana
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/_MG_6040.JPG" alt="">
+              <div class="card-body">
+                <h5 class="card-title">November 5th, 2019</h5>
+                <p class="card-text">“Family isn’t always blood. 
+                  It’s the people in your life who want you in theirs; 
+                  the ones who accept you for who you are. 
+                  The ones that would do anything to see you smile 
+                  and who love you no matter what.”<br>
+                  –Unknown
+                </p>
+              </div>
+            </div>
+            <div class="card mb-4">
+              <img class="card-img" src="images/bali2.jpg" alt="">
+              <div class="card-body">
+                <h5 class="card-title">February 23rd, 2019</h5>
+                <p class="card-text">A simple smile. <br>
+                  “That’s the start of opening your heart 
+                  and being compassionate to others.“<br>–Dalai Lama
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>   
+      </section>
+      <!-- footer -->
+      <footer>
+        <div class="row" id="footer">
+          <div class="col-12">
+            <img class="footer-logo" src="images/logo-laura.jpg"/>
+            <em class="copy">&copy; 2020 Miss Laura May. All Rights Reserved.</em>
+            <div class="social">
+              <a href="https://www.instagram.com/hermosacaptura/" class="instagram">
+                <i class="fa fa-instagram"></i>Instagram</a>
+              <a href="https://www.twitter.com/laurassi_/" class="twitter">
+                <i class="fa fa-twitter"></i>Twitter</a>
+              <a href="https://www.facebook.com/Lauratamphoe/" class="facebook">
+                <i class="fa fa-facebook"></i>facebook</a>
+              <a href="https://www.linkedin.com/in/lauratampubolon/" class="linkedin">
+                <i class="fa fa-linkedin"></i>LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+<script>
+  var myVar;
+  
+  function myFunction() {
+    myVar = setTimeout(showPage, 1600);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+</script>
+<!--Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!--Bootstrap JS-->
+</html>
